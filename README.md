@@ -31,6 +31,7 @@ from { width: 0; }}
 -	For Social Media icons was used Font Awesome library .
 -	Net was made using Javascript. 
 -	Buttons “Hire me”, “Download CV”:
+
 .button_hire{
 height: 40px;
 width: 200px;
@@ -59,7 +60,9 @@ transition: all .25s ease-in;
 }
 
 -	Buttons in “Hobbies”: 
+
 Was used grid for location buttons then created 8 buttons. To make short border lines, I decesied to make 2 squares before and after buttons: 
+
 .item.item4::before, .item.item4::after {
 content: '';
 position: absolute;
@@ -80,6 +83,7 @@ border-right: 5px solid #ddd;
 right: 0;
 left: auto;
 }
+
 Then used Hover to make those lines black and make them slide up and down relatively: 
 
 .item.item4:hover:before, .item.item4:hover:after {
