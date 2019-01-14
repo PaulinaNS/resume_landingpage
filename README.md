@@ -1,4 +1,4 @@
-# resume_landingpage
+# Resume_landingpage
 
 The Purpose of the LP: 
 
@@ -23,6 +23,7 @@ What  interesting tricks does it contain?
 It was done using CSS .
 
 -	Automatic typing : was used :
+
 animation: type 5s steps(50, end);
 and
 @keyframes type{
@@ -46,7 +47,8 @@ font-weight: bold;
 color: black;
 text-align: center;
 line-height: 40px;
-border: 3px solid black;}
+border: 3px solid black;
+}
 
 background-size: 200% 100% hides background image
 
@@ -63,7 +65,8 @@ transition: all .25s ease-in;
 
 Was used grid for location buttons then created 8 buttons. To make short border lines, I decesied to make 2 squares before and after buttons: 
 
-.item.item4::before, .item.item4::after {
+.item.item4::before, 
+.item.item4::after {
 content: '';
 position: absolute;
 left: 0;
@@ -74,6 +77,7 @@ height: 45px;
 border-left: 5px solid #ddd;
 transition: .4s;
 }
+
 .item.item4::after {
 border-left: 0;
 border-bottom: 0;
@@ -86,7 +90,8 @@ left: auto;
 
 Then used Hover to make those lines black and make them slide up and down relatively: 
 
-.item.item4:hover:before, .item.item4:hover:after {
+.item.item4:hover:before,
+.item.item4:hover:after {
 content: '';
 position: absolute;
 left: 0;
@@ -109,6 +114,7 @@ left: auto;
 }
 
 -	Triangle in skills section made with before: 
+
 .progress .progress-bar::before {
 content: "";
 border-bottom: 15px solid #000;
@@ -116,13 +122,18 @@ border-left: 15px solid transparent;
 border-right: 15px solid transparent;
 position: absolute;
 bottom: -5px;
-right: -5px;}
+right: -5px;
+}
+
 (Progress – container 
 Progress-bar – line)
+
 -	Work animation: 
+
 .smoke #words:hover li {
 animation: animate 2s linear forwards;
 }
+
 @keyframes animate {
 0% {
 transform: rotate(0deg) translateY(0px);
@@ -132,25 +143,33 @@ filter: blur(1px);
 100% {
 transform: rotate(45deg) translateY(-200px);
 opacity: 0;
-filter: blur(20px);}}
+filter: blur(20px);}
+}
+
 Used :nth-child for other letters:
 
 .smoke #words li:nth-child(1) {
 animation-delay: 0s;
 }
+
 .smoke #words li:nth-child(2) {
 animation-delay: .4s;
 }
+
 .smoke #words li:nth-child(3) {
 animation-delay: .8s;
 }
+
 .smoke #words li:nth-child(4) {
 animation-delay: 1.2s;
 }
+
 .smoke #words li:nth-child(5) {
 animation-delay: 1.6s;
 }
+
 Pictures animation: 
+
 .gallery-wrap {
 display: flex;
 flex-direction: row;
@@ -158,6 +177,7 @@ width: 100%;
 height: 70vh;
 margin-top: 1%;
 }
+
 .item {
 flex: 1;
 height: 100%;
@@ -166,18 +186,23 @@ background-size: cover;
 background-repeat: none;
 transition: flex 0.8s ease;
 }
+
 .item:hover {
 flex: 7;
 }
 
 -	After “Works”, come section with sentence and circles.
+
 Circles were made with using ::before and ::after. 
+
 Animations:
+
 Rotating circle {
 animation: rotate 5.5s infinite;
 animation-fill-mode: forwards;
 animation-timing-function: linear;
 }
+
 @keyframes rotate {
 0% {
 transform: rotate(0);
@@ -186,12 +211,14 @@ transform: rotate(0);
 transform: rotate(360deg);
 }
 }
+
 shadow animation {
 box-shadow: inset -1px 4px 13px 0px #778899;
 animation: shadow 3.5s infinite;
 animation-direction: alternate-reverse;
 animation-timing-function: linear;
 }
+
 @keyframes shadow {
 0% {
 box-shadow: inset -1px 4px 13px 0px #778899;
@@ -221,11 +248,13 @@ box-shadow: inset -11px 4px -9px 0px #778899;
 box-shadow: inset -9px 4px -12px 0px #778899;
 }
 }
+
 sentance {
 -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.8) 70%);
 -webkit-mask-size: 200%;
 animation: shine 2s infinite;
 }
+
 @-webkit-keyframes shine {
 from {
 -webkit-mask-position: 150%;
