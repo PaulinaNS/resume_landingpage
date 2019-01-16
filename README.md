@@ -1,6 +1,6 @@
 # Resume_landingpage
 
-## **The Purpose of the LP:**
+## **The Purpose of the LP:**:small_red_triangle_down:
 
 First step for searching a new job is making the Resume/CV. Good structured and details one could raise your chances to be noticed. Many web designers , developers create websites in order to promote themselves. Then came an idea of making resume as a LP to show not only my creativity , beginning knowledge of web development and also professionalism and experience. 
 
@@ -24,11 +24,11 @@ It was done using CSS .
 
 -	Automatic typing : was used :
 
-animation: type 5s steps(50, end);
+```animation: type 5s steps(50, end);
 and
 @keyframes type{
 from { width: 0; }}
-
+```
 -	For Social Media icons was used Font Awesome library .
 -	Net was made using Javascript. 
 -	Buttons “Hire me”, “Download CV”:
