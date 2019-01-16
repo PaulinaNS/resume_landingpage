@@ -1,6 +1,6 @@
 # Resume_landingpage
 
-**The Purpose of the LP:**
+##**The Purpose of the LP:**
 
 First step for searching a new job is making the Resume/CV. Good structured and details one could raise your chances to be noticed. Many web designers , developers create websites in order to promote themselves. Then came an idea of making resume as a LP to show not only my creativity , beginning knowledge of web development and also professionalism and experience. 
 
