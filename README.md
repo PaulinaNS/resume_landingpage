@@ -1,6 +1,6 @@
 # Resume_landingpage
 
-The Purpose of the LP: 
+**The Purpose of the LP:**
 
 First step for searching a new job is making the Resume/CV. Good structured and details one could raise your chances to be noticed. Many web designers , developers create websites in order to promote themselves. Then came an idea of making resume as a LP to show not only my creativity , beginning knowledge of web development and also professionalism and experience. 
 
@@ -8,13 +8,13 @@ First step for searching a new job is making the Resume/CV. Good structured and 
 The development was introduced using the HTML language for the verticals using CSS cascading style sheets and JavaScript scripts.
 
 
-Structure of LP: 
+**Structure of LP:**
 
-Page 1 – Main screen.
-Page 2 – Basic information about me.
-Page 3 – Education & Experience.
-Page 4 – Projects that was done by me
-Page 5 – How to get in touch. 
+*Page 1* – Main screen.
+*Page 2* – Basic information about me.
+*Page 3* – Education & Experience.
+*Page 4* – Projects that was done by me
+*Page 5* – How to get in touch. 
 
 
 What  interesting tricks does it contain?
