@@ -1,6 +1,6 @@
 # Resume_landingpage
 
-##**The Purpose of the LP:**
+## **The Purpose of the LP:**
 
 First step for searching a new job is making the Resume/CV. Good structured and details one could raise your chances to be noticed. Many web designers , developers create websites in order to promote themselves. Then came an idea of making resume as a LP to show not only my creativity , beginning knowledge of web development and also professionalism and experience. 
 
@@ -8,7 +8,7 @@ First step for searching a new job is making the Resume/CV. Good structured and 
 The development was introduced using the HTML language for the verticals using CSS cascading style sheets and JavaScript scripts.
 
 
-**Structure of LP:**
+### **Structure of LP:**
 
 *Page 1* – Main screen.
 *Page 2* – Basic information about me.
@@ -17,7 +17,7 @@ The development was introduced using the HTML language for the verticals using C
 *Page 5* – How to get in touch. 
 
 
-What  interesting tricks does it contain?
+**What  interesting tricks does it contain?**
 
 -	On the main page when page decreases , menu hides and burger menu appears.
 It was done using CSS .
@@ -33,6 +33,7 @@ from { width: 0; }}
 -	Net was made using Javascript. 
 -	Buttons “Hire me”, “Download CV”:
 
+```
 .button_hire{
 height: 40px;
 width: 200px;
@@ -49,22 +50,23 @@ text-align: center;
 line-height: 40px;
 border: 3px solid black;
 }
-
+```
 background-size: 200% 100% hides background image
 
 Hover makes background-image with adding background-position and transition;
 
+```
 .button_hire:hover{
 color:white;
 background-position: 0 0;
 transition: all .25s ease-in;
-
 }
-
+```
 -	Buttons in “Hobbies”: 
 
 Was used grid for location buttons then created 8 buttons. To make short border lines, I decesied to make 2 squares before and after buttons: 
 
+```
 .item.item4::before, 
 .item.item4::after {
 content: '';
@@ -77,7 +79,8 @@ height: 45px;
 border-left: 5px solid #ddd;
 transition: .4s;
 }
-
+```
+```
 .item.item4::after {
 border-left: 0;
 border-bottom: 0;
@@ -87,9 +90,9 @@ border-right: 5px solid #ddd;
 right: 0;
 left: auto;
 }
-
+```
 Then used Hover to make those lines black and make them slide up and down relatively: 
-
+```
 .item.item4:hover:before,
 .item.item4:hover:after {
 content: '';
@@ -102,7 +105,8 @@ height: 20px;
 border-left: 5px solid black;
 transition: .4s;
 }
-
+```
+```
 .item.item4:hover:after {
 border-left: 0;
 border-bottom: 0;
@@ -112,9 +116,9 @@ border-right: 5px solid black;
 right: 0;
 left: auto;
 }
-
+```
 -	Triangle in skills section made with before: 
-
+```
 .progress .progress-bar::before {
 content: "";
 border-bottom: 15px solid #000;
@@ -124,12 +128,13 @@ position: absolute;
 bottom: -5px;
 right: -5px;
 }
+```
 
 (Progress – container 
 Progress-bar – line)
 
 -	Work animation: 
-
+```
 .smoke #words:hover li {
 animation: animate 2s linear forwards;
 }
@@ -145,39 +150,43 @@ transform: rotate(45deg) translateY(-200px);
 opacity: 0;
 filter: blur(20px);}
 }
-
+```
 Used :nth-child for other letters:
-
+```
 .smoke #words li:nth-child(1) {
 animation-delay: 0s;
 }
-
+```
+```
 .smoke #words li:nth-child(2) {
 animation-delay: .4s;
 }
-
+```
+```
 .smoke #words li:nth-child(3) {
 animation-delay: .8s;
 }
-
+```
+```
 .smoke #words li:nth-child(4) {
 animation-delay: 1.2s;
 }
-
+```
+```
 .smoke #words li:nth-child(5) {
 animation-delay: 1.6s;
 }
-
+```
 Pictures animation: 
-
+```
 .gallery-wrap {
 display: flex;
 flex-direction: row;
 width: 100%;
 height: 70vh;
 margin-top: 1%;
-}
-
+}```
+```
 .item {
 flex: 1;
 height: 100%;
@@ -186,11 +195,11 @@ background-size: cover;
 background-repeat: none;
 transition: flex 0.8s ease;
 }
-
+```
 .item:hover {
 flex: 7;
 }
-
+```
 -	After “Works”, come section with sentence and circles.
 
 Circles were made with using ::before and ::after. 
