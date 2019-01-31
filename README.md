@@ -25,6 +25,9 @@ It was done using CSS .
 -	Automatic typing : was used :
 
 ```animation: type 5s steps(50, end);```
+
+&
+
 ```@keyframes type{
 from { width: 0; }}
 ```
