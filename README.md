@@ -19,10 +19,10 @@ The development was introduced using the HTML language for the verticals using C
 
 **What  interesting tricks does it contain?**
 
--	On the main page when page decreases , menu hides and burger menu appears.
+On the main page when page decreases , menu hides and burger menu appears.
 It was done using CSS .
 
--	Automatic typing : was used :
+Automatic typing : was used :
 
 ```animation: type 5s steps(50, end);```
 
@@ -31,9 +31,9 @@ It was done using CSS .
 ```@keyframes type{
 from { width: 0; }}
 ```
--	For Social Media icons was used Font Awesome library .
--	Net was made using Javascript. 
--	Buttons “Hire me”, “Download CV”:
+For Social Media icons was used Font Awesome library .
+Net was made using Javascript. 
+Buttons “Hire me”, “Download CV”:
 
 ```
 .button_hire{
@@ -64,7 +64,7 @@ background-position: 0 0;
 transition: all .25s ease-in;
 }
 ```
--	Buttons in “Hobbies”: 
+Buttons in “Hobbies”: 
 
 Was used grid for location buttons then created 8 buttons. To make short border lines, I decesied to make 2 squares before and after buttons: 
 
@@ -94,6 +94,7 @@ left: auto;
 }
 ```
 Then used Hover to make those lines black and make them slide up and down relatively: 
+
 ```
 .item.item4:hover:before,
 .item.item4:hover:after {
