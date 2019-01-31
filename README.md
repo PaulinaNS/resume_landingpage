@@ -24,8 +24,8 @@ It was done using CSS .
 
 -	Automatic typing : was used :
 
-```animation: type 5s steps(50, end);
-@keyframes type{
+```animation: type 5s steps(50, end);```
+```@keyframes type{
 from { width: 0; }}
 ```
 -	For Social Media icons was used Font Awesome library .
