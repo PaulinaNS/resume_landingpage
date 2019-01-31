@@ -110,7 +110,7 @@ right: 0;
 left: auto;
 }
 ```
-Triangle in skills section made with before: 
+- Triangle in skills section made with before: 
 ```
 .progress .progress-bar::before {
 content: "";
