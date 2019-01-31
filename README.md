@@ -119,7 +119,7 @@ right: 0;
 left: auto;
 }
 ```
--	Triangle in skills section made with before: 
+Triangle in skills section made with before: 
 ```
 .progress .progress-bar::before {
 content: "";
@@ -135,7 +135,8 @@ right: -5px;
 (Progress – container 
 Progress-bar – line)
 
--	Work animation: 
+Work animation: 
+
 ```
 .smoke #words:hover li {
 animation: animate 2s linear forwards;
@@ -154,6 +155,7 @@ filter: blur(20px);}
 }
 ```
 Used :nth-child for other letters:
+
 ```
 .smoke #words li:nth-child(1) {
 animation-delay: 0s;
@@ -179,7 +181,9 @@ animation-delay: 1.2s;
 animation-delay: 1.6s;
 }
 ```
+
 Pictures animation: 
+
 ```
 .gallery-wrap {
 display: flex;
@@ -202,11 +206,12 @@ transition: flex 0.8s ease;
 flex: 7;
 }
 ```
--	After “Works”, come section with sentence and circles.
+After “Works”, come section with sentence and circles.
 
 Circles were made with using ::before and ::after. 
 
 Animations:
+
 ```
 Rotating circle {
 animation: rotate 5.5s infinite;
