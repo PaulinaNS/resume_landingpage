@@ -10,11 +10,11 @@ The development was introduced using the HTML language for the verticals using C
 
 ### **Structure of LP:**
 
-- *Page 1* – Main screen.
-- *Page 2* – Basic information about me.
-- *Page 3* – Education & Experience.
-- *Page 4* – Projects that was done by me
-- *Page 5* – How to get in touch. 
+ *Page 1* – Main screen.
+ *Page 2* – Basic information about me.
+ *Page 3* – Education & Experience.
+ *Page 4* – Projects that was done by me
+ *Page 5* – How to get in touch. 
 
 
 **What  interesting tricks does it contain?**
